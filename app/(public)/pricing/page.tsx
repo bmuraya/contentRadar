@@ -5,6 +5,8 @@ export default function PricingPage() {
         <h1 className="text-4xl font-bold">Pricing</h1>
         <p className="text-white/60">Plans will be available soon.</p>
       </div>
+
+      
     </div>
   );
 }
