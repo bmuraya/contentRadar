@@ -156,11 +156,10 @@ export default function DashboardLayout({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
 
-          <StatsCard title="Verified Reach" value="187K" description="+34%" trend="+12%" trendPositive />
-          <StatsCard title="Detections" value="23" description="8 new" trend="+3" trendPositive />
-          <StatsCard title="Uncredited Uses" value="9" description="Action" trend="-2" trendPositive={false} />
-          <StatsCard title="Revenue" value="KES 18K" description="Opportunities" trend="+4.2K" trendPositive />
-
+        <StatsCard title="Verified Reach" value="187K" description="+34%" />
+<StatsCard title="Detections" value="23" description="8 new" />
+<StatsCard title="Uncredited Uses" value="9" description="Action" />
+<StatsCard title="Revenue" value="KES 18K" description="Opportunities" />
         </div>
 
         {children}
