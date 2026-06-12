@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Light theme */
+:root {
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --text: #0c0c0a;
+  --muted: #6b6b6b;
+  --accent: #c8f060;
+  --border: rgba(0, 0, 0, 0.08);
+}
+
+/* Dark theme */
+.dark {
+  --bg: #0c0c0a;
+  --surface: #141412;
+  --surface2: #1c1c19;
+  --text: #f0ede4;
+  --muted: #7a7868;
+  --accent: #c8f060;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+/* base styling */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
